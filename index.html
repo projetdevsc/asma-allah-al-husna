@@ -132,21 +132,21 @@
 
     /* QUIZ / WRITE CARD */
     .qcard {
-      background:white; border-radius:var(--radius); padding:26px 20px; margin:0 20px 16px;
+      background:white; border-radius:var(--radius); padding:20px 20px; margin:0 20px 10px;
       text-align:center; box-shadow: var(--shadow-card);
     }
-    .qlabel { font-size:0.75rem; color:var(--gold); letter-spacing:2.5px; text-transform:uppercase; margin-bottom:14px; font-weight:600; }
+    .qlabel { font-size:0.7rem; color:var(--gold); letter-spacing:2.5px; text-transform:uppercase; margin-bottom:10px; font-weight:600; }
     .qd-ar { font-family:var(--arabic); font-size:2.75rem; direction:rtl; color:var(--ink); line-height:1.3; }
     .qd-fr { font-size:1.5rem; font-style:italic; color:var(--ink); }
-    .opts { display:flex; flex-direction:column; gap:8px; padding:0 20px; }
+    .opts { display:flex; flex-direction:column; gap:6px; padding:0 20px; }
     .ob {
-      width:100%; padding:13px 14px; border-radius:var(--radius-sm); background:white;
+      width:100%; padding:10px 14px; border-radius:var(--radius-sm); background:white;
       border:1.5px solid var(--cream-dark); text-align:center; transition:all 0.2s;
       box-shadow: var(--shadow-btn);
     }
     .ob:active { background:var(--cream); }
-    .ob .oa { font-family:var(--arabic); font-size:1.25rem; color:var(--ink); direction:rtl; margin-bottom:3px; }
-    .ob .ol { font-size:1rem; color:var(--ink-light); font-weight:500; }
+    .ob .oa { font-family:var(--arabic); font-size:1.125rem; color:var(--ink); direction:rtl; margin-bottom:1px; line-height:1.2; }
+    .ob .ol { font-size:0.875rem; color:var(--ink-light); font-weight:500; }
     .ob.ok { background:var(--success); border-color:var(--success); box-shadow:0 2px 8px rgba(45,106,79,0.2); }
     .ob.ok .ol, .ob.ok .oa { color:white; }
     .ob.ko { background:var(--error); border-color:var(--error); box-shadow:0 2px 8px rgba(155,34,38,0.2); }
@@ -405,7 +405,7 @@
 <body>
   <div class="app">
     <div class="page-scroll">
-      <div class="bismillah">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</div>
+      <div class="bismillah">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</div>
       <div id="page-learn" class="page active"></div>
       <div id="page-review" class="page"></div>
       <div id="page-quiz" class="page"></div>
